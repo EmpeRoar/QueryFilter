@@ -6,9 +6,44 @@ namespace jbx.queryfilter
 {
     public class QueryFilter
     {
-        public string page { get; set; }
-        public string pageSize { get; set; }
-        public string sort { get; set; }
-        public string query { get; set; }
+        private int _page;
+        public int page {
+            get
+            {
+                return this._page;
+            }
+            set {
+                this.page = value;
+            }
+        }
+
+        private int _pageSize;
+        public int pageSize {
+            get {
+                return this._pageSize;
+            }
+            set
+            {
+                this._pageSize = value;
+            }
+        }
+
+        private string _sort;
+        public string sort {
+            get {
+                return this._sort;
+            } set {
+                this._sort = value;
+            }
+        }
+
+        private string _query;
+        public string query {
+            get {
+                return this._query;
+            } set {
+                this._query = value;
+            }
+        }
     }
 }

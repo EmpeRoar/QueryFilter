@@ -7,6 +7,12 @@
     <Authors>Julius Bacosa</Authors>
     <Company>Golden Core</Company>
     <Product>Query Filter</Product>
+    <RepositoryUrl>https://github.com/EmpeRoar/QueryFilter</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/EmpeRoar/QueryFilter</PackageProjectUrl>
+    <PackageId>jbx.queryfilter</PackageId>
+    <Version>1.0.2</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>queryfilter, query, cqrs</PackageTags>
   </PropertyGroup>
 
 </Project>
