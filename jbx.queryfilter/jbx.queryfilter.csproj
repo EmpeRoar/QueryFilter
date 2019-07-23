@@ -10,7 +10,7 @@
     <RepositoryUrl>https://github.com/EmpeRoar/QueryFilter</RepositoryUrl>
     <PackageProjectUrl>https://github.com/EmpeRoar/QueryFilter</PackageProjectUrl>
     <PackageId>jbx.queryfilter</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>queryfilter, query, cqrs</PackageTags>
   </PropertyGroup>
