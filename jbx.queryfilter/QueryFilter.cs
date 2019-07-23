@@ -33,7 +33,12 @@ namespace jbx.queryfilter
             get {
                 return this._sort;
             } set {
-                this._sort = value;
+                var val = value;
+                if (string.IsNullOrEmpty(val) || string.IsNullOrWhiteSpace(val))
+                {
+                    val = "id:desc";
+                }
+                this._sort = val;
             }
         }
 
@@ -42,7 +47,12 @@ namespace jbx.queryfilter
             get {
                 return this._query;
             } set {
-                this._query = value;
+                var val = value;
+                if (string.IsNullOrWhiteSpace(val) || string.IsNullOrEmpty(val))
+                {
+                    val = "";
+                }
+                this._query = val;
             }
         }
     }
